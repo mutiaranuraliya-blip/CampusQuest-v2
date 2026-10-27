@@ -33,7 +33,7 @@ def pilih_durasi():
         return None
 
 def jalankan_timer(durasi_menit):
-    durasi_detik = int(durasi_menit*60)
+    durasi_detik = int(durasi_menit)
 
     print("\nTimer dimulai!")
     waktu_mulai = time.monotonic()
